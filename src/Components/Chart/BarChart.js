@@ -12,6 +12,7 @@ export default function BarChart() {
   return (
     <VictoryChart domainPadding={20}>
       <VictoryAxis
+        style={{ tickLabels: { fontSize: 8, padding: 5 } }}
         tickValues={[1, 2, 3, 4, 5]}
         tickFormat={['Audi-R8', 'BMW-M3', 'Ferrari-488', 'Lamborghini-Aventador', 'Porsche-911']}
       />
